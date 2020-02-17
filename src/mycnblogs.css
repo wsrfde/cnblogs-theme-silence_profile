@@ -70,7 +70,10 @@ body{
     padding-bottom: 13px;
     border-left-width: 0px;
 }
- /* 文章边距 */
+.day{
+    border-radius: 5px;
+}
+/* 文章边距 */
 #main {
     width: 69%;
     position: relative;
@@ -89,7 +92,7 @@ body{
     background: #ffffffcc;
 }
 .topicListFooter {
-    padding: 35px 0px 25px 0px;
+    padding: 0;
 }
 .author_profile_info {
     float: left;
@@ -98,11 +101,10 @@ body{
     margin-left: 5px;
 }
 #footer {
-    padding-top: 5px;
     margin-bottom: 50px;
     position: relative;
-    left: -125px;
-    top: -20px;
+    left: -124px;
+    top: 26px;
 }
 
 /* 代码字体设置*/
@@ -202,7 +204,12 @@ body{
 .topicListFooter {
     margin-right: 0
 }
-
+/*.pager{
+    margin: 20px 0;
+}*/
+#homepage_top_pager .pager{
+    margin-top: -10px;
+}
 #nav_next_page,.pager {
     margin-right: 0;
     color: #314659
@@ -925,7 +932,7 @@ body{
     }*/
 
     #mainContent .forFlow {
-        padding-top: 20px
+        padding-top: 15px
     }
 
 /*    #sideBar,.esa-catalog,.postDesc {
