@@ -165,15 +165,7 @@ background: #f8f8f8;
 
 
 
-/* 以下来自主题代码*/
-
-
-
-
-
-
-
-
+/* 以下来自原主题代码*/
 
 .cnblogs-markdown pre {
     white-space: pre!important;
@@ -1007,23 +999,6 @@ background: #f8f8f8;
     #navList li {
         float: none
     }
-
-    /*#navList li #blog_nav_tags {
-        display: block!important
-    }*/
-
-/*    #navList a:active,#navList a:link,#navList a:visited {
-        width: 100%;
-        background-color: #2c3e50;
-        color: #fff!important;
-        padding: 15px 0
-    }
-
-    #navList a:hover {
-        color: #2D8CF0;
-        background-color: #2c3e50!important
-    }
-*/
     .feedbackItem .feedbackManage {
         width: auto
     }
@@ -1031,7 +1006,7 @@ background: #f8f8f8;
     .github-corner {
         display: none
     }
-}
+
 
 @media only screen and (max-width: 410px) {
     #div_digg {
