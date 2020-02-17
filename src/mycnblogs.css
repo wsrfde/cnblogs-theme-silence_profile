@@ -3,9 +3,6 @@ html {
     overflow-y: auto;
     background: none;
 }
-#mainContent .forFlow{
-    margin-left: 25em;
-}
 body{
     font-family: Arial,Helvetica,sans-serif;
     background: url(http://r.photo.store.qq.com/psc?/V13hacLu2RVjvL/WntOtr8rW56pbv0uxxE6dY2UujnV8m4tw3Fpq.UIn3TVWvN7jMosRRGLba*sxAExemvykCQ1*0EdnbZHcYZA.IjHZLvpwtU5Nsoyo3EwGts!/r) no-repeat fixed center;
@@ -73,12 +70,7 @@ body{
     padding-bottom: 13px;
     border-left-width: 0px;
 }
-#mainContent .forFlow{  /* 文章边距 */
-    margin-left: 0;
-}
-/* #blogTitle, #main{
-background: #f8f8f8;
-}*/
+ /* 文章边距 */
 #main {
     width: 69%;
     position: relative;
@@ -87,15 +79,14 @@ background: #f8f8f8;
     border-radius: 6px;
 }
 #mainContent {
-    width: 75%;
-    background: #f8f8f8;
+    width: 80%;
+    background: #f6f6f6;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-bottom: 20px;
 }
-#mainContent .forFlow {
-    margin-left: 0;
-    margin-top: 20px;
+#post_detail{
+    background: #ffffffcc;
 }
 .topicListFooter {
     padding: 35px 0px 25px 0px;
@@ -934,7 +925,7 @@ background: #f8f8f8;
     }*/
 
     #mainContent .forFlow {
-        padding-top: 15px
+        padding-top: 20px
     }
 
 /*    #sideBar,.esa-catalog,.postDesc {
