@@ -48,11 +48,9 @@
 
 已知bug：  
 反复滚动滚动条再返回页首，会出现header重复隐藏出现问题，  
-解决方案应该是在jquery的header动画前面添加stop()，然后再设置动画，  
-如$('#header').stop().slideDown()   
 
-但该主题的header设置代码未找到，或本人愚昧没有找到更好的解决方法。  
-已向原主题作者提出Issues。期待能有解决方案。
+更新：bug已修复
+header要设置position，和媒体查询的影响
 
  [我的博客](https://www.cnblogs.com/lovecode3000/)  
  [原主题地址](https://github.com/esofar/cnblogs-theme-silence)  

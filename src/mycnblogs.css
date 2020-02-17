@@ -12,7 +12,26 @@ body{
     background-size: cover;
 }
 #header {
-    height: 41px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 42px;
+    z-index: 999
+}
+#navigator {
+    top: 10px;
+    width: 70%;
+}
+#navList li a {
+    line-height: 20px;
+}
+.blogStats {
+    color: #f6f6f6;
+    font-size: 12px;
+    text-align: right;
+    position: relative;
+    bottom: 8px;
 }
 #sideBar {
    float:none;
@@ -30,31 +49,36 @@ body{
         margin-left: 1.3em;
         margin-top: 55px;
 }
-#navList {       /* 标题 */
-    float: left;
-    margin-top:5px;
-    margin-left:25px;
-}
-#navigator {
-    top: 5px;
-   width:70%
-}
-.blogStats {
-    color: #f6f6f6;
-    padding-top: 6px;
-    margin-right: 15px;
-}
 #xing{
-    position: fixed;
-    top: 90px;
-    right: 50px;
+    position: relative;
+    top: 10vh;
+}
+
+/* 文章字体 */
+#cnblogs_post_body {
+    font-size: initial;
+}
+/* 左边框 */
+.postTitle a, .postTitl2 a, .entrylistPosttitle a {
+    color: #333;
+    border-left: 5px solid #39f;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+.postTitle, .postTitl2, .entrylistPosttitle {
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: normal;
+    padding-right: 64px;
+    padding-bottom: 13px;
+    border-left-width: 0px;
 }
 #mainContent .forFlow{  /* 文章边距 */
     margin-left: 0;
 }
- #blogTitle, #main{
+/* #blogTitle, #main{
 background: #f8f8f8;
-}
+}*/
 #main {
     width: 69%;
     position: relative;
@@ -904,7 +928,7 @@ background: #f8f8f8;
         opacity: 1
     }
 }
-
+/*
 @media screen and (min-width: 768px) and (max-width:980px) {
     #blog-comments-placeholder,#comment_form {
         padding:10px;
@@ -915,16 +939,16 @@ background: #f8f8f8;
 @media only screen and (max-width: 767px) {
     #home {
         font-size:12px!important
-    }
+    }*/
 
     #mainContent .forFlow {
         padding-top: 15px
     }
 
-    #sideBar,.esa-catalog,.postDesc {
+/*    #sideBar,.esa-catalog,.postDesc {
         display: none
     }
-
+*/
     .postBody {
         padding: 0!important
     }
@@ -935,7 +959,7 @@ background: #f8f8f8;
     }
 
     #topics .postTitle {
-        padding-left: 0!important;
+        padding-left: 0;
         padding-top: 10px
     }
 
@@ -984,11 +1008,11 @@ background: #f8f8f8;
         float: none
     }
 
-    #navList li #blog_nav_tags {
+    /*#navList li #blog_nav_tags {
         display: block!important
-    }
+    }*/
 
-    #navList a:active,#navList a:link,#navList a:visited {
+/*    #navList a:active,#navList a:link,#navList a:visited {
         width: 100%;
         background-color: #2c3e50;
         color: #fff!important;
@@ -999,7 +1023,7 @@ background: #f8f8f8;
         color: #2D8CF0;
         background-color: #2c3e50!important
     }
-
+*/
     .feedbackItem .feedbackManage {
         width: auto
     }
@@ -1039,4 +1063,9 @@ span#poweredby {
 ::-webkit-scrollbar{
     width: 5px;
     height: 3px;
+}
+/*标题右侧三条杠设置*/
+.esa-mobile-menu {
+    top: 0;
+    color: #f6f6f6;
 }
