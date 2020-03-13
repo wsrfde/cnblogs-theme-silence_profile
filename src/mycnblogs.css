@@ -159,6 +159,20 @@ div.commentform textarea{
     color: white;
     font-size: 16px !important;
 }
+.cnblogs-markdown code, .cnblogs-post-body code {
+  font-family: "Courier New",sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  background-color: #e8adad8c !important;
+  color: orangered;
+  border: 0px solid !important;
+  padding: 0 5px !important;
+  border-radius: 3px !important;
+  line-height: 1.8;
+  margin: 1px 5px;
+  vertical-align: middle;
+  display: inline-block;
+}
 .hljs-string, .hljs-type, .hljs-builtin-name, .hljs-selector-id, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-variable {
     color: #e6db74;
 }
@@ -177,6 +191,7 @@ div.commentform textarea{
 .hljs-keyword, .hljs-built_in {
     color: #66d9ef;
 }
+
 
 
 
