@@ -108,17 +108,33 @@ body{
     font-size: larger;
 }
 #cnblogs_post_body h1, #cnblogs_post_body h2, #cnblogs_post_body h3, #cnblogs_post_body h4 {
+    margin: 35px 0;
+    margin-left: -32px;
     font-size: larger;
+    line-height: 1.3;
+    width: fit-content;
+
 }
 #cnblogs_post_body p{
     margin: 5px auto;
 }
-/*h4标签背景设置*/
+
+#cnblogs_post_body h2{
+    background: indianred;  /*#f34040*/
+    color: aliceblue;
+    padding: 15px 20px 15px 32px;
+}
+
+#cnblogs_post_body h3{
+    background: #4098f3;
+    color: aliceblue;
+    padding: 8px 20px 8px 32px;
+}
+
 #cnblogs_post_body h4{
-	width: fit-content;
-    margin: 10px 0;
-    padding: 0 15px;
-    background-color: #8c8b8b;
+    background-color: tomato;
+    color: aliceblue;
+    padding: 4px 20px 4px 32px;
 }
 /*引用标签样式设计*/
 .postBody blockquote, .postCon blockquote {
@@ -154,7 +170,7 @@ div.commentform textarea{
 .cnblogs-markdown .hljs {
     display: block;
     overflow-x: auto;
-    padding: 0.5em;
+    padding: 0.5em 0.8em !important;
     background: #23241f !important;
     color: white;
     font-size: 16px !important;
